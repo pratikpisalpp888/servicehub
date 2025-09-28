@@ -1,0 +1,89 @@
+### Register a new user
+POST http://localhost:5000/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "name": "Test User",
+  "email": "test@example.com",
+  "password": "test123",
+  "phone": "+1234567890"
+}
+
+### Login user
+POST http://localhost:5000/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "test123"
+}
+
+### Get current user (requires token)
+GET http://localhost:5000/api/v1/auth/me
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Request to become a provider (requires token)
+POST http://localhost:5000/api/v1/providers/request
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+{
+  "businessName": "Test Business",
+  "categories": ["Home Cleaning", "Beauty"],
+  "address": "123 Test St, Test City",
+  "latitude": 40.7128,
+  "longitude": -74.0060,
+  "visitCharge": 30.00,
+  "details": "Test business details"
+}
+
+### Get nearby providers
+GET http://localhost:5000/api/v1/providers/nearby?lat=40.7128&lng=-74.0060&radiusMeters=10000
+
+### Get nearby providers by category
+GET http://localhost:5000/api/v1/providers/nearby?lat=40.7128&lng=-74.0060&category=Home%20Cleaning&radiusMeters=10000
+
+### Get pending providers (admin only, requires token)
+GET http://localhost:5000/api/v1/admin/providers/pending
+Authorization: Bearer YOUR_ADMIN_JWT_TOKEN_HERE
+
+### Approve provider request (admin only, requires token)
+PUT http://localhost:5000/api/v1/admin/providers/PROVIDER_ID_HERE/request
+Content-Type: application/json
+Authorization: Bearer YOUR_ADMIN_JWT_TOKEN_HERE
+
+{
+  "approved": true
+}
+
+### Create a booking (requires token)
+POST http://localhost:5000/api/v1/bookings
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+{
+  "providerId": "PROVIDER_ID_HERE",
+  "category": "Home Cleaning",
+  "timeslot": "2023-12-01T10:00:00Z"
+}
+
+### Pay visit charge for booking (requires token)
+POST http://localhost:5000/api/v1/bookings/BOOKING_ID_HERE/pay-visit-charge
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Complete booking (requires token)
+PUT http://localhost:5000/api/v1/bookings/BOOKING_ID_HERE/complete
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Get user bookings (requires token)
+GET http://localhost:5000/api/v1/bookings/my-bookings
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+### Send chat message (requires token)
+POST http://localhost:5000/api/v1/chat
+Content-Type: application/json
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+{
+  "message": "Hello, I need help finding a plumber near me."
+}

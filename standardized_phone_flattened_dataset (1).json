@@ -1,0 +1,552 @@
+[
+  {
+    "name": "KB Salon at Home Service",
+    "email": "yash.beauty71@gmail.com",
+    "phone": "+91-987650011",
+    "description": "Professional beauty care with bridal makeup and hair styling services.",
+    "category": "Beauty",
+    "address": "Sector 12, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.044081,
+    "lng": 73.065642
+  },
+  {
+    "name": "Women's Salon At Home -(Only Ladies) Facial, Waxing, Manicure and Pedicure",
+    "email": "neha.makeup02@gmail.com",
+    "phone": "+91-9812302002",
+    "description": "Expert in facials, skincare, and party-ready looks.",
+    "category": "Beauty",
+    "address": "Anurag Residency, Sector 9, Kamothe, Panvel, Navi Mumbai, Maharashtra 410209",
+    "lat": 19.02047,
+    "lng": 73.094993
+  },
+  {
+    "name": "Home salon",
+    "email": "anita.homesalon43@gmail.com",
+    "phone": "+91-9789003003",
+    "description": "Affordable home salon service with premium products.",
+    "category": "Beauty",
+    "address": "601 6 th floor, Kara jade, Plot no 44 Sector 1 J k pride, varche ovale, Panvel, Maharashtra 410206",
+    "lat": 19.009678,
+    "lng": 73.108125
+  },
+  {
+    "name": "Me n Daughters Beauty Salon",
+    "email": "radha.bridal08@gmail.com",
+    "phone": "+91-9661104004",
+    "description": "Bridal specialist offering mehendi and full makeup packages.",
+    "category": "Beauty",
+    "address": "Satyam Apartment, KPC High School Rd, Kesar Symphony, Sector-19, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.053538,
+    "lng": 73.076238
+  },
+  {
+    "name": "Naaz home salon",
+    "email": "sana.stylist65@gmail.com",
+    "phone": "+91-9552205005",
+    "description": "Hairstylist and makeup artist for weddings and events.",
+    "category": "Beauty",
+    "address": "Plot no, 18 b, Sector 35, f, kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.022369,
+    "lng": 73.087434
+  },
+  {
+    "name": "Ayushi Beauty Salon",
+    "email": "meera.consult86@gmail.com",
+    "phone": "+91-9443306006",
+    "description": "Personal beauty consultant with doorstep service.",
+    "category": "Beauty",
+    "address": "Kharghar, sector 36, swapnapurti, between gate no-3&4, L-20 shop no-6, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.083129,
+    "lng": 73.07513
+  },
+  {
+    "name": "Style In Salon, Institute, Makeup Studio",
+    "email": "ritu.organic07@gmail.com",
+    "phone": "+91-9334407087",
+    "description": "Specialist in organic facials and natural skin care.",
+    "category": "Beauty",
+    "address": "Bhoomi Avenue, Sector 35-I, Kutak Bandhan, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.074692,
+    "lng": 73.07204
+  },
+  {
+    "name": "Assta Beauty Zonee",
+    "email": "assta.beauty91@gmail.com",
+    "phone": "+91-9225508008",
+    "description": "Professional beautician offering waxing, threading, and manicure.",
+    "category": "Beauty",
+    "address": "Shop No -14/15, Balaji Heritage, Plot No-83, Block G, Sector 11, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.043865,
+    "lng": 73.071697
+  },
+  {
+    "name": "Sunita",
+    "email": "sunita.makeup11@gmail.com",
+    "phone": "+91-9007710020",
+    "description": "Bridal and party makeover artist with latest trends.",
+    "category": "Beauty",
+    "address": "Plot 29, WING-B, Pearl Planet Cooperative Group Housing Society, 202, 1104, Sector 35-I, Kutak Bandhan, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.073631,
+    "lng": 73.073594
+  },
+  {
+    "name": "NAVIK SALON for him/her",
+    "email": "sunita.makeup10@gmail.com",
+    "phone": "+91-7738334529",
+    "description": "Experienced makeup artist for all occasions.",
+    "category": "Beauty",
+    "address": "Shop no. 2 & 3, Bhoomi Zarna Residency, Plot No .11A, Sector 20, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04877,
+    "lng": 73.07098
+  },
+  {
+    "name": "LIT PRIVE SALON",
+    "email": "lit.salon12@gmail.com",
+    "phone": "+91-7738334529",
+    "description": "Bridal and party makeover artist with latest trends.",
+    "category": "Beauty",
+    "address": "shop no 19 & 20, Greenwoods, plot no 9 to 13B, 410210, beside Prashant Corner, Sector 35E, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.07053,
+    "lng": 73.07761
+  },
+  {
+    "name": "Ramp Salon and academy kharghar - Make up - Hair Beauty And Skin Care",
+    "email": "ramp.salon22@gmail.com",
+    "phone": "+91-8591365551",
+    "description": "Hairstylist and makeup artist for weddings and events.",
+    "category": "Beauty",
+    "address": "Shop No-4, Sai Bhakti CHS, Raghunath Rd, near Kamdhenu Commerz, Block G, Sector 13, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04414,
+    "lng": 73.07228
+  },
+  {
+    "name": "Shri Sai Furniture Work",
+    "email": "amit.carpenter21@gmail.com",
+    "phone": "+91-9872121021",
+    "description": "Expert carpenter for custom furniture design.",
+    "category": "Carpenter",
+    "address": "Shop No. 1, Plot No. C-5/12, Sector 5, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.0400518,
+    "lng": 73.0763953
+  },
+  {
+    "name": "Rk Carpenter",
+    "email": "rk.wood22@gmail.com",
+    "phone": "+91-9813222022",
+    "description": "Skilled in repairing doors, windows, and wardrobes.",
+    "category": "Carpenter",
+    "address": "Sector 15, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.037418,
+    "lng": 73.0672528
+  },
+  {
+    "name": "Momin Interior & Carpenter",
+    "email": "vikas.repair23@gmail.com",
+    "phone": "+91-9784323023",
+    "description": "Professional woodwork and modular kitchen setup.",
+    "category": "Carpenter",
+    "address": "Shop No. 04, Plot No. 17/18, Patel Heritage, Sector 7, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.0425313,
+    "lng": 73.0725946
+  },
+  {
+    "name": "SRK Furniture and Interior Decorators",
+    "email": "rahul.modular24@gmail.com",
+    "phone": "+91-9665424024",
+    "description": "Affordable carpenter service for home and office.",
+    "category": "Carpenter",
+    "address": "Shop No 1, Sec 12, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.0454371,
+    "lng": 73.0699252
+  },
+  {
+    "name": "SS furniture & carpenter",
+    "email": "sachin.sofa25@gmail.com",
+    "phone": "+91-9556525025",
+    "description": "Specialist in sofa, bed, and table repairs.",
+    "category": "Carpenter",
+    "address": "Shop no 4 plot no 1 sector 10, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.0463138,
+    "lng": 73.0754854
+  },
+  {
+    "name": "Azam Carpenter",
+    "email": "deepak.polish26@gmail.com",
+    "phone": "+91-9447626026",
+    "description": "Custom wood polishing and finishing services.",
+    "category": "Carpenter",
+    "address": "Sector 34, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.0189682,
+    "lng": 73.0690045
+  },
+  {
+    "name": "KGN Carpenter",
+    "email": "arbaz.frame27@gmail.com",
+    "phone": "+91-9338727027",
+    "description": "Door and window frame installation expert.",
+    "category": "Carpenter",
+    "address": "Sector 20, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.032125,
+    "lng": 73.0760434
+  },
+  {
+    "name": "Rajesh Carpenter",
+    "email": "rajesh.carpent67@gmail.com",
+    "phone": "+91-9702074893",
+    "description": "Carpenter for quick fixes and wooden furniture repair.",
+    "category": "Carpenter",
+    "address": "23VF+P5P, Raghunath Rd, Block J, Block G, Sector 13, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04515,
+    "lng": 73.07292
+  },
+  {
+    "name": "Maurya carpenter",
+    "email": "maurya.carpenter87@gmail.com",
+    "phone": "+91-9338780270",
+    "description": "Modular furniture installation and repair services.",
+    "category": "Carpenter",
+    "address": "Mini Market Rd, Sector 12, Kharghar, Navi Mumbai, Maharashtra 400614",
+    "lat": 19.04442,
+    "lng": 73.06657
+  },
+  {
+    "name": "Ved Prakash carpenter",
+    "email": "ved.carpenter87@gmail.com",
+    "phone": "+91-9338727027",
+    "description": "Reliable carpenter for both small and large projects.",
+    "category": "Carpenter",
+    "address": "Kopra get 5, Gaurav arcade, Kopra, Sector 10, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.03626,
+    "lng": 73.07417
+  },
+  {
+    "name": "Vijay Carpenter",
+    "email": "vijay.frame27@gmail.com",
+    "phone": "+91-9272449096",
+    "description": "Affordable carpenter service for good and office.",
+    "category": "Carpenter",
+    "address": "Shop no 3, Meera Plaza, Plot no 136, opposite Ragunath Vihar, Block G, Sector 13, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04588,
+    "lng": 73.07223
+  },
+  {
+    "name": "Royal Interiors Furniture side work",
+    "email": "arysn.carpenter27@gmail.com",
+    "phone": "+91-9833250751",
+    "description": "Specialist in sofa, bed, and table repairs.",
+    "category": "Carpenter",
+    "address": "Taloja phase 2 Taloja Phase, 1 Road, Kharghar, Navi Mumbai, Maharashtra 410208",
+    "lat": 19.07449,
+    "lng": 73.10372
+  },
+  {
+    "name": "RISHIRAJ ENTERPRISES & ELECTRICIAN",
+    "email": "raj.electric31@gmail.com",
+    "phone": "+91-9873131031",
+    "description": "Skilled electrician for wiring and electrical repairs.",
+    "category": "Electrician",
+    "address": "Room 11, Nanndadeep Society, Plot C-33, Block G, Sector 12, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.046796,
+    "lng": 73.070638
+  },
+  {
+    "name": "ANJALI ENTERPRISES ELECTRICIAN SHASHI",
+    "email": "anjali.wiring32@gmail.com",
+    "phone": "+91-9814232032",
+    "description": "Professional service for fan, light, and appliance installation.",
+    "category": "Electrician",
+    "address": "Plot no G-73, near Laxmi Laddu, Block G, Sector 12, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.043591,
+    "lng": 73.06905
+  },
+  {
+    "name": "Star electrical Service",
+    "email": "suresh.fan33@gmail.com",
+    "phone": "+91-9785333033",
+    "description": "24/7 emergency electrical repair available.",
+    "category": "Electrician",
+    "address": "Shop no 2, Savli CHS, plot no. e84, Belpada Rd, Sector 3, Belpada, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.030678,
+    "lng": 73.058678
+  },
+  {
+    "name": "kiran electrician Kharghar",
+    "email": "kiran.24x7elec34@gmail.com",
+    "phone": "+91-9666434034",
+    "description": "Affordable electrician for home and office wiring.",
+    "category": "Electrician",
+    "address": "Sector 11 Rd, Kendriya Vihar, Sector 6, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.038427,
+    "lng": 73.06121
+  },
+  {
+    "name": "Amar electrical",
+    "email": "amar.electric31@gmail.com",
+    "phone": "+91-9557535035",
+    "description": "Certified electrician for electrical safety inspections.",
+    "category": "Electrician",
+    "address": "Raj Tower, Plot No.21, Kesar Symphony, Sector-19, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.049695,
+    "lng": 73.075615
+  },
+  {
+    "name": "Good Luck Electrician",
+    "email": "goodluck.electric31@gmail.com",
+    "phone": "+91-9769648796",
+    "description": "Certified electrician for electrical safety inspections.",
+    "category": "Electrician",
+    "address": "plot no 11, Arm Enclave Apartment, shop no 12, sector, Sector 7, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04043,
+    "lng": 73.06494
+  },
+  {
+    "name": "MAURYA ELECTRICAL KHARGHAR",
+    "email": "maurya.electric31@gmail.com",
+    "phone": "+91-7355902473",
+    "description": "Certified electrician for electrical safety inspections.",
+    "category": "Electrician",
+    "address": "plot no 11, Arm Enclave Apartment, shop no 12, sector, Sector 7, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04582,
+    "lng": 73.06838
+  },
+  {
+    "name": "Somya Behra Electrician Kharghar",
+    "email": "behra.electric31@gmail.com",
+    "phone": "+91-9892409586",
+    "description": "Certified electrician for electrical safety inspections.",
+    "category": "Electrician",
+    "address": "Vastu Vihar, Sector 16, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04711,
+    "lng": 73.08121
+  },
+  {
+    "name": "AAIRA ENTERPRISES ||| ELECTRICIAN",
+    "email": "aaira.electric31@gmail.com",
+    "phone": "+91-9198989815",
+    "description": "Certified electrician for electrical safety inspections.",
+    "category": "Electrician",
+    "address": "ROOM NO 101, VIJAYA HEIGHTS, Sector-34 A, Parsi, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.07303,
+    "lng": 73.08052
+  },
+  {
+    "name": "Ratan electrical solutions",
+    "email": "ratan.electric31@gmail.com",
+    "phone": "+91-9920974702",
+    "description": "Certified electrician for electrical safety inspections.",
+    "category": "Electrician",
+    "address": "Shop no 36, Tiara complex, Block G, Sector 13, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.05015,
+    "lng": 73.0723
+  },
+  {
+    "name": "Sadguru Electrician",
+    "email": "sadguru.electric31@gmail.com",
+    "phone": "+91-9920974702",
+    "description": "Certified electrician for electrical safety inspections.",
+    "category": "Electrician",
+    "address": "plot 14d, shantikunj chs, Sector 4, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.03568,
+    "lng": 73.0607
+  },
+  {
+    "name": "Amar Plumber",
+    "email": "amar.plumber33@gmail.com",
+    "phone": "+91-9557535035",
+    "description": "Reliable plumber for leak repairs and pipe fittings.",
+    "category": "Plumber",
+    "address": "Raj Tower, Plot No.21, Kesar Symphony, Sector-19, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.049695,
+    "lng": 73.075615
+  },
+  {
+    "name": "DECENT PLUMBING SERVICES",
+    "email": "sunil.leak12@gmail.com",
+    "phone": "+91-9813412012",
+    "description": "Expert in bathroom and kitchen pipeline installation.",
+    "category": "Plumber",
+    "address": "Number - 101 ,Plot No - D61, Astha Plaza Building ,Flat, Sector 35F, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.07262,
+    "lng": 73.075764
+  },
+  {
+    "name": "PERFECT PLUMBING WORK'S",
+    "email": "ram.24x7plumb13@gmail.com",
+    "phone": "+91-9784513013",
+    "description": "24/7 plumbing service for emergencies.",
+    "category": "Plumber",
+    "address": "Gruhalaxmi CHS Ltd, Office No, 03 , Gurulaxmi CHS Plot No, 73,Sector 11,Kharghar Near Ryan international school Ryan international school kharghar, Plot NO 73, Sector 11, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.039553,
+    "lng": 73.07143
+  },
+  {
+    "name": "Sanjay all Plumbing Work",
+    "email": "sanjay.quickfix14@gmail.com",
+    "phone": "+91-9665614014",
+    "description": "Affordable and quick tap, sink, and drainage repairs.",
+    "category": "Plumber",
+    "address": "Premises Residency, Block G, Sector 11, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.041947,
+    "lng": 73.070658
+  },
+  {
+    "name": "Somya Behra Plumber Kharghar",
+    "email": "somya.tankclean15@gmail.com",
+    "phone": "+91-9556715015",
+    "description": "Experienced plumber for water tank and pipeline cleaning.",
+    "category": "Plumber",
+    "address": "Vastu Vihar, Sector 16, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.045589,
+    "lng": 73.081877
+  },
+  {
+    "name": "Sanoj Kumar plumber",
+    "email": "sanoj.clean15@gmail.com",
+    "phone": "+91-9556715816",
+    "description": "Experienced plumber for water tank and pipeline cleaning.",
+    "category": "Plumber",
+    "address": "shop number 10, hi light Tower, Kopra, Sector 10, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04006,
+    "lng": 73.07306
+  },
+  {
+    "name": "Alekh Jena plumber",
+    "email": "jena.plumber33@gmail.com",
+    "phone": "+91-9557535035",
+    "description": "Reliable plumber for leak repairs and pipe fittings.",
+    "category": "Plumber",
+    "address": "Building No KH, 1-402, Vastu Vihar, Sector 16, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04542,
+    "lng": 73.08302
+  },
+  {
+    "name": "Plumbing House",
+    "email": "ajay.plumber33@gmail.com",
+    "phone": "+91-9557548960",
+    "description": "Reliable plumber for leak repairs and pipe fittings.",
+    "category": "Plumber",
+    "address": "Shop No 3, Premises Residency, Plot No. 71, Block G, Sector 11, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.0438,
+    "lng": 73.071
+  },
+  {
+    "name": "Sadik plumber",
+    "email": "sadvik.plumber33@gmail.com",
+    "phone": "+91-9892919870",
+    "description": "Reliable plumber for leak repairs and pipe fittings.",
+    "category": "Plumber",
+    "address": "shop-5, Astha plaza, opp. sai pearls, Sector 35D, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.07576,
+    "lng": 73.07821
+  },
+  {
+    "name": "Interart Creators Plumbing Services Pvt. Ltd.",
+    "email": "interact.plumber33@gmail.com",
+    "phone": "+91-9867037385",
+    "description": "Reliable plumber for leak repairs and pipe fittings.",
+    "category": "Plumber",
+    "address": "Royal Residency, Gr. Floor, Plot No. 139, Kopra, Sector 10, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.03893,
+    "lng": 73.07255
+  },
+  {
+    "name": "Asian Paints Beautiful Homes Painting Service",
+    "email": "ajay.painter41@gmail.com",
+    "phone": "+91-9874141041",
+    "description": "Professional wall painter with modern finishes.",
+    "category": "Paint",
+    "address": "Shop No 9, Ground Floor, Concept UN, Pragati Paints, Plot 69A, Sector 21, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.051232,
+    "lng": 73.068635
+  },
+  {
+    "name": "Shailendra Painting Contractor",
+    "email": "shailendra.quickpaint44@gmail.com",
+    "phone": "+91-9815242042",
+    "description": "Specialist in interior and exterior house painting.",
+    "category": "Paint",
+    "address": "near Hanuman Mandir, Sector 13, Kharghar, Navi Mumbai, Mumbai, Maharashtra 410210",
+    "lat": 19.046013,
+    "lng": 73.068377
+  },
+  {
+    "name": "Vijay Interior Home Painter",
+    "email": "vijay.paint48@gmail.com",
+    "phone": "+91-9272449096",
+    "description": "Specialist in interior and exterior house painting.",
+    "category": "Paint",
+    "address": "Shop no 3, Meera Plaza, Plot no 136, opposite Ragunath Vihar, Block G, Sector 13, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04802,
+    "lng": 73.0722
+  },
+  {
+    "name": "Somya Behra Painter",
+    "email": "somya.paint48@gmail.com",
+    "phone": "+91-9892409586",
+    "description": "Specialist in interior and exterior house painting.",
+    "category": "Paint",
+    "address": "Vastu Vihar, Sector 16, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.0485,
+    "lng": 73.08062
+  },
+  {
+    "name": "Lalit painter",
+    "email": "lalit.paint48@gmail.com",
+    "phone": "+91-9892409586",
+    "description": "Specialist in interior and exterior house painting.",
+    "category": "Paint",
+    "address": "23WC+28R, Block G, Sector 12, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.04737,
+    "lng": 73.07032
+  },
+  {
+    "name": "Mauli home painting and civil work",
+    "email": "mauli.paint89@gmail.com",
+    "phone": "+91-9867333612",
+    "description": "Specialist in interior and exterior house painting.",
+    "category": "Paint",
+    "address": "shops, GOODWILL GARDEN, 7A, society, Sector 8, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.03698,
+    "lng": 73.07032
+  },
+  {
+    "name": "House Clean - Home Cleaning Services",
+    "email": "rita.clean51@gmail.com",
+    "phone": "+91-9875151051",
+    "description": "Professional home deep cleaning services.",
+    "category": "Home Cleaning",
+    "address": "201, Vastu Vihar, KH1 C WING, Sector 16, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.043825,
+    "lng": 73.082027
+  },
+  {
+    "name": "MANGAL FACILITY MANAGEMENT SERVICES: Pest Control, Office, Tank Cleaning, Security, and Housekeeping Services",
+    "email": "mangal.clean51@gmail.com",
+    "phone": "+91-9324699679",
+    "description": "Affordable full-house sanitization services.",
+    "category": "Home Cleaning",
+    "address": "Punit Chs, Rajgad Building, 06, Plot no - 82, Sector 11, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.06778,
+    "lng": 73.07371
+  },
+  {
+    "name": "Clean Bharat",
+    "email": "bharat.clean51@gmail.com",
+    "phone": "+91-9324697521",
+    "description": "Quick and reliable cleaning for offices and homes.",
+    "category": "Home Cleaning",
+    "address": "Plot No 8A Office no -27, Shree Shanti Niketan CHS, Sec - 8, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.05821,
+    "lng": 73.06492
+  },
+  {
+    "name": "Krish Cleaning Services",
+    "email": "krish.clean51@gmail.com",
+    "phone": "+91-8976152581",
+    "description": "Eco-friendly home cleaning with safe products.",
+    "category": "Home Cleaning",
+    "address": "Plot No 8A Office no -27, Shree Shanti Niketan CHS, Sec - 8, Kharghar, Navi Mumbai, Maharashtra 410210",
+    "lat": 19.11966,
+    "lng": 73.99571
+  }
+]
