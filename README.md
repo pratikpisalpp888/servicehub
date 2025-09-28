@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ServiceHub - Multi-Role Service Marketplace
 
 A comprehensive MERN stack web application that connects users with local service providers. Built with React, Node.js, Express, and MongoDB.
@@ -59,7 +58,14 @@ A comprehensive MERN stack web application that connects users with local servic
    cd ../server && npm install
    ```
 3. Set up environment variables (see `.env.example` files)
-4. Run the development servers:
+4. **For Google Maps Integration**:
+   - Get a Google Maps API key from the [Google Cloud Console](https://console.cloud.google.com/)
+   - Enable the Maps JavaScript API and Places API
+   - Add your API key to `client/.env`:
+     ```
+     VITE_GOOGLE_MAPS_API_KEY=your_actual_api_key_here
+     ```
+5. Run the development servers:
    ```bash
    # In one terminal
    cd server && npm run dev
@@ -93,7 +99,3 @@ This project is a complete implementation of a multi-role service marketplace. C
 
 ## License
 MIT License
-=======
-# servicehub
-Full stack MERN project with AI powered
->>>>>>> dcfcadf09470e8c09abe7fcdb2e6015d98078bcb

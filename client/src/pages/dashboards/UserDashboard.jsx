@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { providerAPI } from '../../api';
+import ProviderMap from '../../components/ProviderMap';
 
 const UserDashboard = () => {
   const location = useLocation();
@@ -135,6 +136,15 @@ const UserDashboard = () => {
     setSelectedCategory('');
     setSearchQuery('');
     fetchNearbyProviders();
+  };
+
+  // Function to generate static map image URL with markers for all providers
+  const generateStaticMapUrl = () => {
+    if (providers.length === 0) return '';
+    
+    // For demonstration purposes, we'll use a placeholder map image
+    // In a real application, you would use the Google Static Maps API with a valid API key
+    return 'https://via.placeholder.com/600x400/4A90E2/ffffff?text=Map+View+with+Provider+Locations';
   };
 
   return (
@@ -320,124 +330,89 @@ const UserDashboard = () => {
                     Switch to List View
                   </button>
                 </div>
-                <div className="bg-white rounded-xl shadow p-3 h-[500px]">
-                  <div className="h-full w-full rounded-lg overflow-hidden">
-                    {/* Google Maps Embed - Centered on Kharghar */}
-                    <iframe
-                      title="Kharghar Service Providers Map"
-                      width="100%"
-                      height="100%"
-                      frameBorder="0"
-                      style={{ border: 0 }}
-                      src={`https://www.google.com/maps/embed/v1/view?key=AIzaSyD3J5V9qCdJfP4D1X1bXE2hgzDqGjC7J4I&center=${locationData.lat},${locationData.lng}&zoom=14`}
-                      allowFullScreen
-                    ></iframe>
+                <div className="bg-white rounded-xl shadow p-3">
+                  <div className="h-[400px] w-full rounded-lg overflow-hidden mb-5">
+                    {/* Interactive Google Map with provider markers */}
+                    <ProviderMap providers={providers} />
                   </div>
-                  <div className="mt-5">
-                    <h4 className="text-lg font-bold text-gray-800 mb-3">Service Providers in Kharghar ({providers.length} found)</h4>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-h-60 overflow-y-auto">
-                      {providers.map((provider) => (
-                        <div 
-                          key={provider.id} 
-                          className="bg-white p-3 rounded-lg shadow-sm border border-gray-100"
-                        >
-                          <div className="flex justify-between items-start">
-                            <div>
-                              <h5 className="font-bold text-gray-800 text-sm">{provider.businessName}</h5>
-                              <p className="text-xs text-gray-600 mt-1">{provider.categories.join(', ')}</p>
-                            </div>
-                            <div className="flex items-center bg-yellow-50 px-1 py-1 rounded">
-                              <span className="text-yellow-500 text-xs">★</span>
-                              <span className="font-medium text-gray-800 text-xs ml-1">
-                                {provider.rating > 0 ? provider.rating.toFixed(1) : 'N/A'}
-                              </span>
-                            </div>
+                  
+                  {/* List of providers below the map */}
+                  <div className="space-y-3 max-h-60 overflow-y-auto pr-2">
+                    {providers.map((provider) => (
+                      <div 
+                        key={provider.id} 
+                        className="border rounded-lg p-3 hover:bg-gray-50 transition-colors border-gray-200"
+                      >
+                        <div className="flex justify-between items-start">
+                          <div>
+                            <h4 className="font-bold text-gray-800">{provider.businessName}</h4>
+                            <p className="text-gray-600 text-sm">{provider.address}</p>
                           </div>
+                          <div className="flex items-center bg-yellow-50 px-2 py-1 rounded">
+                            <span className="text-yellow-500 text-sm mr-1">★</span>
+                            <span className="font-medium text-gray-800 text-sm">
+                              {provider.rating > 0 ? provider.rating.toFixed(1) : 'N/A'}
+                            </span>
+                          </div>
+                        </div>
+                        
+                        <div className="flex justify-between items-center mt-2">
+                          <div className="flex flex-wrap gap-1">
+                            {provider.categories.slice(0, 2).map((category, index) => (
+                              <span 
+                                key={index} 
+                                className="bg-blue-50 text-blue-800 text-xs font-medium px-2 py-1 rounded-full"
+                              >
+                                {category}
+                              </span>
+                            ))}
+                            {provider.categories.length > 2 && (
+                              <span className="bg-gray-100 text-gray-600 text-xs font-medium px-2 py-1 rounded-full">
+                                +{provider.categories.length - 2}
+                              </span>
+                            )}
+                          </div>
+                          <div className="bg-green-50 p-1 rounded">
+                            <p className="font-medium text-green-600 text-sm">₹{provider.visitCharge}</p>
+                          </div>
+                        </div>
+                        
+                        <div className="flex gap-2 mt-3">
+                          <button
+                            onClick={() => navigate('/provider-details', { state: { provider } })}
+                            className="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-medium py-1 px-2 rounded text-sm"
+                          >
+                            View Details
+                          </button>
                           <button
                             onClick={() => handleViewMap(provider)}
-                            className="mt-2 w-full bg-blue-500 hover:bg-blue-600 text-white text-xs font-medium py-1 px-2 rounded"
+                            className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-1 px-2 rounded text-sm"
                           >
-                            View on Google Maps
+                            Directions
                           </button>
                         </div>
-                      ))}
-                    </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
             )
           ) : (
-            <div className="text-center py-10">
-              <div className="text-5xl mb-3">😢</div>
-              <h3 className="text-xl font-bold mb-2 text-gray-800">No Providers Found</h3>
-              <p className="text-gray-600 mb-6">
-                We couldn't find any {selectedCategory} providers in Kharghar. 
-                Try selecting a different category.
-              </p>
-              <div className="flex flex-col sm:flex-row justify-center gap-3">
-                <button
-                  onClick={() => navigate('/chat')}
-                  className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium py-2 px-4 rounded-md"
-                >
-                  Chat with Assistant
-                </button>
-                <button
-                  onClick={() => setSelectedCategory('')}
-                  className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md"
-                >
-                  View All Categories
-                </button>
-              </div>
+            <div className="text-center py-12">
+              <p className="text-gray-600">No providers found. Try a different category or search term.</p>
             </div>
           )}
         </div>
       )}
       
-      {!selectedCategory && !showAllProviders && (
-        <div className="bg-white rounded-2xl shadow-lg p-6">
-          <div className="text-center mb-8">
-            <div className="text-5xl mb-4">🏠</div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-3">Find Trusted Local Services in Kharghar</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Discover verified professionals for home services, beauty treatments, repairs, and more in your area.
-            </p>
-          </div>
-          
-          <div className="mb-8">
-            <h3 className="text-xl font-bold text-gray-800 mb-5 text-center">Popular Categories</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => handleCategorySelect(category)}
-                  className="p-4 rounded-lg border text-base font-medium bg-white text-gray-700 border-gray-200 hover:bg-gray-50 flex flex-col items-center justify-center h-24"
-                >
-                  <span className="text-3xl mb-2">
-                    {category === 'Beauty' && '💄'}
-                    {category === 'Carpenter' && '🔨'}
-                    {category === 'Electrician' && '⚡'}
-                    {category === 'Plumber' && '🔧'}
-                    {category === 'Paint' && '🎨'}
-                    {category === 'Home Cleaning' && '🧹'}
-                  </span>
-                  <span className="font-medium">{category}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-          
-          <div className="bg-blue-50 rounded-xl p-6 text-center border border-blue-100">
-            <h3 className="text-xl font-bold text-gray-800 mb-2">All Service Providers in Kharghar</h3>
-            <p className="text-gray-600 mb-5">Browse all {providers.length} verified professionals in your area</p>
-            <button
-              onClick={handleViewAllProviders}
-              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-md"
-            >
-              View All Providers
-            </button>
-          </div>
-        </div>
-      )}
+      <div className="text-center mt-8">
+        <button
+          onClick={handleViewAllProviders}
+          className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-6 rounded-lg"
+        >
+          View All Providers
+        </button>
+      </div>
     </div>
   );
 };
