@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ServiceHub - Multi-Role Service Marketplace
 
 A comprehensive MERN stack web application that connects users with local service providers. Built with React, Node.js, Express, and MongoDB.
@@ -92,3 +93,7 @@ This project is a complete implementation of a multi-role service marketplace. C
 
 ## License
 MIT License
+=======
+# servicehub
+Full stack MERN project with AI powered
+>>>>>>> dcfcadf09470e8c09abe7fcdb2e6015d98078bcb
